@@ -1,0 +1,31 @@
+[0m11:05:28.376134 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754c2be18770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754c2bfbcb60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754c2b8fe150>]}
+
+
+============================== 11:05:28.454235 | 023c7163-f1be-4595-878f-05aff9c09f74 ==============================
+[0m11:05:28.454235 [info ] [MainThread]: Running with dbt=1.10.11
+[0m11:05:28.454875 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'log_cache_events': 'False', 'log_path': 'logs', 'quiet': 'False', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'indirect_selection': 'eager', 'fail_fast': 'False', 'log_format': 'default', 'printer_width': '80', 'introspect': 'True', 'target_path': 'None', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init', 'warn_error': 'None', 'empty': 'None', 'write_json': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/feliperibeiro/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'no_print': 'None'}
+[0m11:05:28.538043 [info ] [MainThread]: Creating dbt configuration folder at /home/feliperibeiro/.dbt
+[0m11:09:03.539662 [debug] [MainThread]: Starter project path: /home/feliperibeiro/Documentos/Jornada/workshop_dbt_airflow3/1_local_setup/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m11:09:03.545930 [info ] [MainThread]: 
+Your new dbt project "jornada_felipe_dw" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:09:03.546711 [info ] [MainThread]: Setting up your profile.
+[0m11:12:07.112875 [info ] [MainThread]: Profile jornada_felipe_dw written to /home/feliperibeiro/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:12:07.114678 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 398.78806, "process_in_blocks": "52480", "process_kernel_time": 0.366014, "process_mem_max_rss": "124960", "process_out_blocks": "43992", "process_user_time": 4.02918}
+[0m11:12:07.115787 [debug] [MainThread]: Command `dbt init` succeeded at 11:12:07.115555 after 398.79 seconds
+[0m11:12:07.116748 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754c2be10ec0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754c2c317cb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754c2b8fdd60>]}
+[0m11:12:07.118252 [debug] [MainThread]: Flushing usage events
+[0m11:12:07.747585 [debug] [MainThread]: An error was encountered while trying to flush usage events
